@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Server</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        .highlight {
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .feature-box {
+            background-color: #f7f9fc;
+            border-radius: 10px;
+            padding: 20px;
+            flex-basis: 45%;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .feature-box h3 {
+            color: #333;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .feature-box p {
+            font-size: 1em;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .footer p {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the <span class="highlight">WebSocket Server</span></h1>
+        <p>The WebSocket server provides a <span class="highlight">real-time communication</span> channel between clients and servers. It allows data to be sent and received at any time without the need for continuous polling, making it ideal for applications such as chat rooms, live updates, gaming, and more.</p>
+
+        <div class="features">
+            <div class="feature-box">
+                <h3>Key Features</h3>
+                <p>✓ Bi-directional communication between server and client.</p>
+                <p>✓ Real-time data exchange with low latency.</p>
+                <p>✓ Fully compatible with most modern browsers.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>How it Works</h3>
+                <p>The server establishes a persistent connection using the WebSocket protocol. Once connected, messages can be transmitted back and forth, providing an always-on communication channel.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 WebSocket Server | All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>
