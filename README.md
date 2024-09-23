@@ -22,7 +22,7 @@ This application is a real-time communication platform built using React for the
 - **Back End**: 
   - Node.js
   - Express.js
-  - WebSocket library (e.g., `ws`)
+  - WebSocket library: socket.io and socket.io-client
 
 ## Installation
 
@@ -30,6 +30,7 @@ This application is a real-time communication platform built using React for the
 
 - Node.js
 - npm
+- yarn
 
 ### Steps
 
@@ -37,4 +38,15 @@ This application is a real-time communication platform built using React for the
    ```bash
    git clone https://github.com/yourusername/websocket-app.git
    cd websocket-app
+   ```
+2. Enter to: `chat-websockets`
+3. Node WS server
+   - `cd server`
+   -  `npm install`
+   -  `npm run server` or node --watch index.js
+  
+4. React client app
+   - `cd chat-app`
+   - `yarn`
+   - `yarn dev`
 
